@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="04.WindowsCalculator.css" />
+</head>
+<body>
+    <div id="container">
+
+        <table id="min-max-close">
+            <tr>
+                <td id="min"></td>
+                <td id="max"></td>
+                <td id="close"></td>
+            </tr>
+        </table>
+
+        <table id="main">
+
+            <thead>
+                <tr>
+                    <td id="view">View</td>
+                    <td id="edit">Edit</td>
+                    <td id="help">Help</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="3">
+                        <table id="functionality">
+                            <tr>
+                                <td id="result" colspan="10"></td>
+                            </tr>
+                            <tr>
+                                <td id="binary" colspan="10"></td>
+                            </tr>
+                            <tr>
+                                <td id="numsystem" colspan="2" rowspan="3">
+                                    <div class="fieldsets">
+                                        <fieldset>
+                                            <input type="radio" name="num-system" value="1" id="hex" />
+                                            <label for="hex">Hex</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <input type="radio" name="num-system" value="2" id="dec" checked="checked" />
+                                            <label for="dec">Dec</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <input type="radio" name="num-system" value="3" id="oct" />
+                                            <label for="oct">Oct</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <input type="radio" name="num-system" value="4" id="bin" />
+                                            <label for="bin">Bin</label>
+                                        </fieldset>
+                                    </div>
+                                </td>
+                                <td class="plain-buttons"></td>
+                                <td class="plain-buttons">Mod</td>
+                                <td class="plain-buttons letters">A</td>
+                                <td class="plain-buttons">MC</td>
+                                <td class="plain-buttons">MR</td>
+                                <td class="plain-buttons">MS</td>
+                                <td class="plain-buttons">M+</td>
+                                <td class="plain-buttons">M-</td>
+                            </tr>
+                            <tr>
+                                <td class="plain-buttons">(</td>
+                                <td class="plain-buttons">)</td>
+                                <td class="plain-buttons letters">B</td>
+                                <td class="plain-buttons">&#8592</td>
+                                <td class="plain-buttons">CE</td>
+                                <td class="plain-buttons">C</td>
+                                <td class="plain-buttons">&#177</td>
+                                <td class="plain-buttons">&#8730</td>
+                            </tr>
+                            <tr>
+                                <td class="plain-buttons">RoL</td>
+                                <td class="plain-buttons">RoR</td>
+                                <td class="plain-buttons letters">C</td>
+                                <td class="plain-buttons digits">7</td>
+                                <td class="plain-buttons digits">8</td>
+                                <td class="plain-buttons digits">9</td>
+                                <td class="plain-buttons">/</td>
+                                <td class="plain-buttons">%</td>
+                            </tr>
+                            <tr>
+                                <td id="scope" colspan="2" rowspan="3">
+                                    <div class="fieldsets">
+                                        <fieldset>
+                                            <input type="radio" name="scope" value="1" id="qword" />
+                                            <label for="qword">Qword</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <input type="radio" name="scope" value="2" id="dword" checked="checked" />
+                                            <label for="dword">Dword</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <input type="radio" name="scope" value="3" id="word" />
+                                            <label for="word">Word</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <input type="radio" name="scope" value="4" id="byte" />
+                                            <label for="byte">Byte</label>
+                                        </fieldset>
+                                    </div>
+                                </td>
+                                <td class="plain-buttons">Or</td>
+                                <td class="plain-buttons">Xor</td>
+                                <td class="plain-buttons letters">D</td>
+                                <td class="plain-buttons digits">4</td>
+                                <td class="plain-buttons digits">5</td>
+                                <td class="plain-buttons digits">6</td>
+                                <td class="plain-buttons">*</td>
+                                <td class="plain-buttons">1/<span id="psi">&#967</span><!--&#7530--></td>
+                            </tr>
+                            <tr>
+                                <td class="plain-buttons">Lsh</td>
+                                <td class="plain-buttons">Rsh</td>
+                                <td class="plain-buttons letters">E</td>
+                                <td class="plain-buttons digits">1</td>
+                                <td class="plain-buttons digits">2</td>
+                                <td class="plain-buttons digits">3</td>
+                                <td class="plain-buttons">-</td>
+                                <td id="equals" rowspan="2">=</td>
+                            </tr>
+                            <tr>
+                                <td class="plain-buttons">Not</td>
+                                <td class="plain-buttons">And</td>
+                                <td class="plain-buttons letters">F</td>
+                                <td id="zero" colspan="2" class="digits">0</td>
+                                <td class="plain-buttons">,</td>
+                                <td class="plain-buttons">+</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

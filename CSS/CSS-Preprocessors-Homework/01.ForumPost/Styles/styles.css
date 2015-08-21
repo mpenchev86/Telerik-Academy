@@ -1,0 +1,147 @@
+﻿body {
+  margin: 0;
+  padding: 0 40px 0 15px;
+  font-size: 100%;
+  background: #c894f2;
+  background: -moz-linear-gradient(top, #c894f2 0%, #8e19ee 20%, #9215f2 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #c894f2), color-stop(20%, #8e19ee), color-stop(100%, #9215f2));
+  background: -webkit-linear-gradient(top, #c894f2 0%, #8e19ee 20%, #9215f2 100%);
+  background: -o-linear-gradient(top, #c894f2 0%, #8e19ee 20%, #9215f2 100%);
+  background: -ms-linear-gradient(top, #c894f2 0%, #8e19ee 20%, #9215f2 100%);
+  background: linear-gradient(to bottom, #c894f2 5%, #8e19ee 20%, #9215f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color3', GradientType=0);
+}
+body #header-container {
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+body #header-container #logo-container {
+  display: inline-block;
+}
+body #header-container #reg-form-container {
+  display: inline-block;
+  width: 830px;
+  text-align: right;
+}
+body #header-container #reg-form-container form div label[for=tb-username],
+body #header-container #reg-form-container form div label[for=tb-password] {
+  color: #EBCDF8;
+}
+body #header-container #reg-form-container form div input#tb-username,
+body #header-container #reg-form-container form div input#tb-password {
+  border: 1px #834BAC solid;
+  border-radius: 10px;
+  width: 120px;
+  background: #B35EF3;
+  margin-bottom: 10px;
+}
+body #header-container #reg-form-container form button#btn-register {
+  color: #F4D8FC;
+  height: 25px;
+  width: 80px;
+  background-color: #B861FA;
+  border-radius: 6px;
+  margin-right: 120px;
+  border: outset #B871Fa;
+  font-weight: bold;
+}
+body nav ul {
+  list-style-type: none;
+  border: 2px groove #7626B4;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 900px;
+}
+body nav ul li {
+  display: inline-block;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: #EDC4FA;
+}
+body nav ul li ul {
+  display: none;
+}
+body section {
+  display: inline-block;
+  float: left;
+  width: 70%;
+}
+body section article {
+  border: 2px groove #7626B4;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+body section article h1 {
+  margin-left: 5px;
+  color: #F4D8FC;
+  margin-bottom: 10px;
+}
+body section article p {
+  color: #DDC1FC;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+body section article footer {
+  text-align: right;
+}
+body section article footer a {
+  text-decoration: none;
+  color: #B04EF5;
+}
+body aside {
+  display: inline-block;
+  float: right;
+  width: 30%;
+}
+body aside ul {
+  list-style-type: none;
+}
+body aside ul li {
+  border: 2px groove #7626B4;
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 15px;
+}
+body aside ul li h2 {
+  font-size: 20px;
+  color: #F4D8FC;
+  margin: 0;
+}
+body aside ul li p {
+  padding-left: 3px;
+  color: #E1C1FC;
+}
+body aside ul li p a {
+  text-decoration: none;
+  color: #A282BD;
+}
+body aside ul li p em {
+  color: #B271E0;
+}
+body aside ul li p strong {
+  color: #B28AD7;
+}
+body aside ul li ul {
+  /*list-style-image:  url("images\li-dot.png");*/
+  list-style: url('li-dot.png');
+}
+body aside ul li ul li {
+  border: none;
+  padding: 0;
+  color: #D3AEFB;
+}
+body footer {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+body footer p {
+  color: #F4D8FC;
+}
+/*# sourceMappingURL=styles.css.map */

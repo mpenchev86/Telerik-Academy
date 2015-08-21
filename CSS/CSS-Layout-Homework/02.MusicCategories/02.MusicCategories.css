@@ -1,0 +1,51 @@
+﻿body, html {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Calibri, sans-serif;
+}
+
+#container {
+    background-color: #eae9e9;
+    border-radius: 20px;
+    margin: 0;
+    padding: 30px 50px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+article {
+    margin-top: 90px;
+    border: 2px #656363 solid;
+    background-color: #fff;
+}
+
+img {
+    margin: 30px 50px 30px 30px;
+    width: 40%;
+    border: 2px groove;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    width: 45%;
+    vertical-align: 150px;
+    font-size: 140%;
+}
+
+input {
+    display: inline-block;
+    border: #ff0000 outset;
+    float: right;
+}
+
+.listen {
+    background-image: url("Listen.png")
+}
+
+.add {
+    background-image: url("Add.png");
+}

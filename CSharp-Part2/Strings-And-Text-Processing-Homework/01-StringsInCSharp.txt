@@ -1,0 +1,31 @@
+Problem 1. Strings in C#.
+    • Describe the strings in C#.
+    • What is typical for the string data type?
+    • Describe the most important methods of the String class.
+
+1)
+Strings are sequences of characters. The actual sequences are stored in the heap, while their addresses are kept 
+in the stack. Variables of type 'string' represent those addresses, pointing to the actual values(character sequences).
+
+2)
+String data type is unlike the other reference data types. Variables of the string class are immutable. It means 
+that if we try to change the value behind the address of a string variable, the value is not changed but instead 
+a new block of memory is allocated for the new value and the string variable is now pointing to it. The old value 
+stays, unaddressed, in the dynamic memory, until the garbage collector destroys it and frees that memory.
+
+3)
+CompareTo(), Equals(), String.Compare() - comparison of strings lexicographically.
+Concat() - concatenation of a string to another.
+ToLower(…) and ToUpper(…) - representing all characters of a string as lower case or upper case letters.
+IndexOf(…) and LastIndexOf(…) - searching for a sequence inside a string, the first appearance from the beginning,
+or the first from the end backwards.
+Substring(…) - extrantion of a portion of a string.
+Split(…) - separating a string by characters, specified as parameters.
+Replace(…), Regex.Replace(…) - replacing of all instances of a sequence in a string; replacing with regular 
+expressions in a specified format, e.g.: "(089)[0-9]{8}" --> (constant) [a character from - to] {number of specified characters}
+Trim(…) TrimStart(…) and TrimEnd(…) - remove empty spaces of specified characters at the beginning, end or trailing.
+ToString(…) - it can be applied to any data type and returns the string representation of a variable's value, but not
+always readable.
+String.Format(…) - formats a string in a predefined format, using templates.
+Parse(…) - converts a string representation of some value to a specified format, if possible. If not - FormatException 
+is thrown.

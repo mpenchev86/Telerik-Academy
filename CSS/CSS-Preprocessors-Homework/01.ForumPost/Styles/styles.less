@@ -1,0 +1,168 @@
+﻿.background(@color1, @color2, @color3) {
+    background: @color1;
+    background: -moz-linear-gradient(top, @color1 0%, @color2 20%, @color3 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, @color1), color-stop(20%, @color2), color-stop(100%, @color3));
+    background: -webkit-linear-gradient(top, @color1 0%, @color2 20%, @color3 100%);
+    background: -o-linear-gradient(top, @color1 0%, @color2 20%, @color3 100%);
+    background: -ms-linear-gradient(top, @color1 0%, @color2 20%, @color3 100%);
+    background: linear-gradient(to bottom, @color1 5%, @color2 20%, @color3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color1', endColorstr='@color3', GradientType=0 );
+}
+
+body {
+    margin: 0;
+    padding: 0 40px 0 15px;
+    font-size: 100%;
+    .background(#c894f2, #8e19ee, #9215f2);
+
+    #header-container {
+        margin: 0;
+        padding: 5px 0 0 0;
+
+        #logo-container {
+            display: inline-block;
+        }
+
+        #reg-form-container {
+            display: inline-block;
+            width: 830px;
+            text-align: right;
+
+            form {
+                div {
+
+                    label[for=tb-username], label[for=tb-password] {
+                        color: #EBCDF8;
+                    }
+
+                    input#tb-username, input#tb-password {
+                        border: 1px #834BAC solid;
+                        border-radius: 10px;
+                        width: 120px;
+                        background: #B35EF3;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                button#btn-register {
+                    color: #F4D8FC;
+                    height: 25px;
+                    width: 80px;
+                    background-color: #B861FA;
+                    border-radius: 6px;
+                    margin-right: 120px;
+                    border: outset #B871Fa;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            border: 2px groove #7626B4;
+            border-radius: 15px;
+            font-size: 20px;
+            padding: 10px 20px;
+            margin-left: 20px;
+            margin-top: 10px;
+            width: 900px;
+
+            li {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    color: #EDC4FA;
+                }
+
+                ul {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    section {
+        display: inline-block;
+        float: left;
+        width: 70%;
+        article {
+            border: 2px groove #7626B4;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            padding-right: 20px;
+            h1 {
+                margin-left: 5px;
+                color: #F4D8FC;
+                margin-bottom: 10px;
+            }
+            p {
+                color: #DDC1FC;
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            footer {
+                text-align: right; 
+                a {
+                    text-decoration: none;
+                    color: #B04EF5;
+                }
+            }
+        }
+    }
+
+    aside {
+        display: inline-block;
+        float: right;
+        width: 30%;
+        ul {
+            list-style-type: none;
+            li {
+                border: 2px groove #7626B4;
+                border-radius: 5px;
+                margin-top: 12px;
+                padding: 15px;
+                h2 {
+                    font-size: 20px;
+                    color: #F4D8FC;
+                    margin: 0;
+                }
+                p {
+                    padding-left: 3px;
+                    color: #E1C1FC;
+                    a{
+                        text-decoration: none;
+                        color: #A282BD;
+                    }
+                    em {
+                        color: #B271E0;
+                    }
+                    strong {
+                        color: #B28AD7;
+                    }
+                }
+                ul {
+                    /*list-style-image:  url("images\li-dot.png");*/
+                    list-style: url('li-dot.png');
+                    li {
+                        border: none;
+                        padding: 0;
+                        color: #D3AEFB;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        p {
+            color: #F4D8FC;
+        }
+    }
+}

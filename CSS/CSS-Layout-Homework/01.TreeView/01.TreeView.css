@@ -1,0 +1,20 @@
+﻿body {
+}
+
+li {
+    list-style: none;
+}
+
+    li:hover::first-line {
+        text-decoration: underline;
+        color: #000000;
+    }
+
+    li > ul {
+        display: none;
+        color: #b1aeae;
+    }
+
+    li:hover > ul {
+        display: block;
+    }

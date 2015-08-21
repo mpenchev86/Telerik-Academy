@@ -1,0 +1,58 @@
+﻿body {
+    margin: 0; padding: 0;
+    background-color: rgb(169, 169, 169);
+    font-size: 100%;
+}
+
+h1 {
+    color: rgb(249, 249, 209);
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body>header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+section {
+    margin: 0 10px 0 10px;
+}
+
+section h1 {
+    font-size: 1.875em;
+}
+
+article>p {
+    font-size: 1.2em;
+}
+
+section ~ footer {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 0 30px 0;
+}

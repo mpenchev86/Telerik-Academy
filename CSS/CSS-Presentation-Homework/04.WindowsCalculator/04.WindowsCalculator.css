@@ -1,0 +1,187 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-size: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 421px;
+    height: 386px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-radius: 7px;
+    box-shadow: 3px 3px 20px 0 #000;
+    margin-top: 100px;
+    margin-left: 100px;
+    /*background-image: url("background-container.png");*/
+}
+
+
+
+
+
+#min-max-close {
+    border: 0;
+    border-collapse: separate;
+}
+
+    #min-max-close td {
+        height: 16px;
+        border: 1px solid #767D85;
+    }
+
+#min {
+    position: absolute;
+    left: 413px;
+    top: 100px;
+    width: 25px;
+    border-radius: 0 0 0 5px;
+}
+
+#max {
+    position: absolute;
+    left: 441px;
+    top: 100px;
+    width: 24px;
+}
+
+#close {
+    position: absolute;
+    left: 468px;
+    top: 100px;
+    width: 44px;
+    border-radius: 0 0 5px 0;
+}
+
+
+
+
+
+
+#main {
+    width: 409px;
+    height: 352px;
+    border: 1px solid #667483;
+    border-collapse: collapse;
+    margin-left: 6px;
+    margin-top: 24px;
+}
+
+    #main thead {
+        border-bottom: 1px solid #C1C5D1;
+        border-bottom-style: inset;
+    }
+
+#view {
+    padding-left: 7px;
+    width: 35px;
+}
+
+#edit {
+    padding-left: 3.8px;
+    width: 33px;
+}
+
+
+
+
+
+
+#functionality {
+    border-spacing: 5px 5px;
+    width: 395px;
+    height: 318px;
+    margin-left: 5px;
+    text-align: center;
+    color: #1A3558;
+}
+
+    #functionality td {
+        border-radius: 2px;
+    }
+
+
+
+
+#result {
+    border: 1px solid #667483;
+    /*width: 380px;*/
+    height: 48px;
+    padding: 0;
+}
+
+#binary {
+    border: 1px solid #667483;
+    height: 59px;
+    padding: 0;
+}
+
+
+
+
+
+#numsystem, #scope {
+    border: 1px solid #667483;
+    padding: 0;
+    /*width: 74px;*/
+    /*height: 79px;*/
+}
+
+.fieldsets {
+    margin-top: 6px;
+    margin-left: 7px;
+}
+
+fieldset {
+    border: none;
+    height: 13px;
+    margin: 0 0 7px 0;
+    padding: 0;
+    text-align: left;
+}
+
+input {
+    margin: 0;
+}
+
+label {
+    font-size: 93%;
+    vertical-align: 20%;
+}
+
+
+
+
+
+#zero {
+    border: 1px solid #667483;
+    /*width: 65px;
+    height: 23px;*/
+}
+
+#equals {
+    border: 1px solid #667483;
+    /*width: 30px;*/
+    /*height: 51px;*/
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.plain-buttons {
+    border: 1px solid #667483;
+    width: 30px;
+    height: 23px;
+}
+
+.letters, .digits {
+    font-size: 130%;
+}
+
+#psi {
+    font-size: 80%;
+    font-style: italic;
+    font-weight: bold;
+    vertical-align: 15%;
+    padding-left: 1px;
+}
